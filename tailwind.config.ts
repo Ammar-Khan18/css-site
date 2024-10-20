@@ -8,6 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        customBlack: '#000000',
+        customPurple: '#6102D3',
+        customMagenta: '#A6176F',
+        customPink: '#EE76E1',
+        customYellow: '#D9EA12',
         green: {
           50: '#30AF5B',
           90: '#292C27',
@@ -28,13 +33,6 @@ module.exports = {
         yellow: {
           50: '#FEC601',
         },
-      },
-      backgroundImage: {
-        'bg-img-1': "url('/img-1.png')",
-        'bg-img-2': "url('/img-2.png')",
-        'feature-bg': "url('/feature-bg.png')",
-        pattern: "url('/pattern.png')",
-        'pattern-2': "url('/pattern-bg.png')",
       },
       screens: {
         xs: '400px',
