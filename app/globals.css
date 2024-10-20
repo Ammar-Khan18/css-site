@@ -18,8 +18,12 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  /*font-family: Arial, Helvetica, sans-serif;*/
   font-family: Inter;
+  position: relative;
+  overflow: hidden;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  /*@apply bg-gradient-to-r from-customBlack via-customPurple via-customMagenta via-customPink to-customYellow min-h-screen;*/
+  @apply bg-gradient-to-r from-purple-950 via-purple-900 via-purple-800 to-yellow-700 min-h-screen;
 }
 
 * {
