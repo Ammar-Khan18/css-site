@@ -13,7 +13,7 @@ const Hero = () => {
             </div>
 
           {/*RIGHT*/}
-            <div className="border-2 border-blue-500 flex relative w-[30%] items-start align-middle justify-center xs:self-center">
+            <div className="border-2 border-blue-500 flex relative lg:w-[30%] items-start align-middle justify-center xs:self-center xs:w-auto">
               <Image src="/css_transparent.png" alt="Logo" width={500} height={500} className="h-auto"/>
             </div>
         </div>
